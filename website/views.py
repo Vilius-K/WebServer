@@ -39,7 +39,6 @@ def pdf(problem_id):
 @views.route('/admin')
 @login_required(role="SERVER-ADMIN")
 def admin(problem_id):
-    ##
     return "<h1>Admin Panel</h1>"
 
 
